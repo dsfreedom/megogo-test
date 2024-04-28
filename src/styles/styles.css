@@ -140,8 +140,9 @@ body {
   margin-top: 10vh;
 }
 .block-2__top-image {
+  overflow: hidden;
   width: 100%;
-  height: auto;
+  height: 100%;
   clip-path: inset(0 4% 0 4%);
   /* clip-path: polygon(20% 0, 82% 0, 95% 7%, 96% 16%, 96% 100%, 5% 100%, 5% 14%, 7% 5%); */
   background-image: url(../images/block-2-photo.jpg);
@@ -151,13 +152,12 @@ body {
   
 }
 
-
-
 .block-3 {
   border: 8px solid #23C3B2;
   background-image: url(../images/block-3-background.jpeg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 .block-3__heading-1 {
